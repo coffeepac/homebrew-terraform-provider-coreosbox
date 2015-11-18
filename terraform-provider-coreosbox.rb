@@ -1,5 +1,3 @@
-require 'json'
-
 class TerraformProviderCoreosbox < Formula
   desc 'Terraform provider for getting CoreOS box information for a given IaaS, update channel and version (or current version)'
   homepage 'https://github.com/Samsung-AG/terraform-provider-coreosbox'
