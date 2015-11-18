@@ -11,6 +11,6 @@ class TerraformProviderCoreosbox < Formula
 
   def install
     bin.install 'terraform-provider-coreosbox' 
-    system "ln -s #{File.join(bin, name)} #{File.join(HOMEBREW_PREFIX, 'opt', 'terraform', 'bin', name)}"
+    system "ln -sfn #{File.join(bin, name)} #{File.join(HOMEBREW_PREFIX, 'opt', 'terraform', 'bin', name)}"
   end
 end
