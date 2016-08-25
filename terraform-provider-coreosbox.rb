@@ -1,9 +1,9 @@
 class TerraformProviderCoreosbox < Formula
   desc 'Terraform provider for getting CoreOS box information for a given IaaS, update channel and version (or current version)'
   homepage 'https://github.com/samsung-cnct/terraform-provider-coreosbox'
-  url 'https://github.com/samsung-cnct/terraform-provider-coreosbox/releases/download/v0.0.1/terraform-provider-coreosbox_darwin_amd64.tar.gz'
-  version '0.0.1'
-  sha256 '666ff6adbd56e1d86562685365c8de4362a84793eb38824a67953e87775fb7bb'
+  url 'https://github.com/samsung-cnct/terraform-provider-coreosbox/releases/download/v0.0.2/terraform-provider-coreosbox_darwin_amd64.tar.gz'
+  version '0.0.2'
+  sha256 'fdaafea86561e213d80fb0bf1dd4f051fc03c0409757d6eb5aac67b2e24b8908'
   depends_on 'terraform'
 
 
